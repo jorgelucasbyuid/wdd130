@@ -1,67 +1,58 @@
-/* Reset básico */
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
-/* Navegação */
 nav {
-  background-color: #333;
-  padding: 1rem;
+  background-color: #2f2f2f;
+  padding: 16px;
 }
 
 nav a {
-  color: white;
-  padding: 0.5rem;
   display: block;
+  padding: 8px;
+  color: #ffffff;
   text-decoration: none;
 }
 
-/* Conteúdo principal */
 main {
   max-width: 800px;
-  margin: 1rem auto;
+  margin: 16px auto;
 }
 
-/* Título */
 h1 {
-  color: #222;
+  color: #1f1f1f;
 }
 
-/* Imagem do perfil */
 main img {
   width: 150px;
   height: auto;
-  border: 1px solid #ccc;
+  border: 1px solid #bdbdbd;
   padding: 4px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Aside */
 aside {
   width: 300px;
-  margin: 1rem auto;
-  border: 1px solid #ccc;
-  padding: 1rem;
-  background-color: #f5f5f5;
-  color: #333;
+  margin: 16px auto;
+  border: 1px solid #bdbdbd;
+  padding: 16px;
+  background-color: #f2f2f2;
+  color: #2b2b2b;
 }
 
-/* Imagem do aside */
 aside img {
   width: 200px;
   height: auto;
 }
 
-/* Parágrafos */
 p {
   padding: 0;
 }
 
-/* Rodapé */
 footer {
-  margin-top: 2rem;
-  border-top: 1px solid #ccc;
+  margin-top: 32px;
+  border-top: 1px solid #bdbdbd;
   text-align: center;
 }
