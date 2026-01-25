@@ -31,14 +31,17 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--secondary-color);
-  color: var(--primary-color);
+  /* Mudado para primary-color para corrigir erro de contraste */
+  background-color: var(--primary-color); 
+  color: var(--accent2-color);
+  padding: 10px 20px;
 }
 
 header nav a {
-  color: var(--primary-color);
+  color: var(--accent2-color);
   text-decoration: none;
   font-family: var(--heading-font);
+  margin-left: 15px;
 }
 
 header nav a:hover {
@@ -83,7 +86,7 @@ article {
   position: absolute;
   bottom: 20px;
   left: 20px;
-  background-color: var(--accent2-color);
+  background-color: rgba(255, 255, 255, 0.9);
   color: var(--primary-color);
   padding: 16px;
   width: 60%;
@@ -95,14 +98,16 @@ article {
   margin-left: 16px;
 }
 
-.socialmedia a {
-  text-decoration: none;
-}
-
 footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: var(--accent2-color);
   color: var(--primary-color);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.socialmedia a {
+  text-decoration: none;
 }
