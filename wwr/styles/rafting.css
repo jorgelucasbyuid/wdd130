@@ -3,7 +3,6 @@
   --secondary-color: #3a8fa8;
   --accent1-color: #cae9ff;
   --accent2-color: #ffffff;
-
   --heading-font: Arial, Helvetica, sans-serif;
   --body-font: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -34,6 +33,7 @@ header {
   background-color: var(--primary-color);
   color: var(--accent2-color);
   padding: 10px 20px;
+  border-bottom: 5px solid var(--secondary-color);
 }
 
 header nav a {
@@ -54,7 +54,7 @@ h1 {
 
 h2 {
   font-family: var(--heading-font);
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 nav,
@@ -93,6 +93,7 @@ article {
   color: var(--primary-color);
   padding: 16px;
   width: 60%;
+  border: 1px solid var(--secondary-color);
 }
 
 .hero article img {
