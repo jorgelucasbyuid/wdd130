@@ -1,9 +1,8 @@
 :root {
-  --primary-color: #1b4965;    
-  --secondary-color: #3a8fa8;  
-  --accent1-color: #cae9ff;    
-  --accent2-color: #ffffff;   
-
+  --primary-color: #1b4965;
+  --secondary-color: #3a8fa8;
+  --accent1-color: #cae9ff;
+  --accent2-color: #ffffff;
   --heading-font: Arial, Helvetica, sans-serif;
   --body-font: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -20,60 +19,44 @@ body {
   background-color: var(--accent1-color);
 }
 
-header,
-main,
-footer {
+header, main, footer {
   width: 840px;
   margin: 0 auto;
 }
-
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  /* Fundo escuro (Primary) + Texto claro (Accent2) = Alto Contraste */
-  background-color: var(--primary-color); 
+  background-color: var(--primary-color);
   color: var(--accent2-color);
-}
-
-header nav {
-  display: flex;
+  padding: 10px;
 }
 
 header nav a {
-  color: var(--accent2-color); 
+  color: var(--accent2-color);
   text-decoration: none;
   font-family: var(--heading-font);
-  padding: 10px 15px; 
-  border-radius: 5px;
+  padding: 10px;
 }
 
-
 header nav a:hover {
-  text-decoration: none;
-  background-color: var(--secondary-color); 
-  color: var(--primary-color); 
+  background-color: var(--secondary-color);
+  text-decoration: underline;
+}
 
-h1,
-h2 {
+h1, h2 {
   font-family: var(--heading-font);
   color: var(--primary-color);
 }
 
-nav,
-p,
-section,
-article {
+nav, p, section, article {
   margin: 16px;
   padding: 8px;
 }
 
-
 .hero {
   position: relative;
-  margin-top: 20px;
 }
 
 .hero img {
@@ -96,44 +79,27 @@ article {
   position: absolute;
   bottom: 20px;
   left: 20px;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: var(--accent2-color);
   color: var(--primary-color);
   padding: 16px;
   width: 60%;
-  border-radius: 5px;
 }
 
 .hero article img {
   float: right;
   width: 125px;
   margin-left: 16px;
-  border: 1px solid var(--primary-color);
 }
 
-
-section {
-  background-color: var(--accent2-color);
-  padding: 20px;
-  margin-bottom: 20px;
+.socialmedia a {
+  text-decoration: none;
 }
-
 
 footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
- 
-  background-color: var(--secondary-color); 
-  color: var(--accent2-color); 
-  padding: 20px;
-  margin-top: 20px;
-}
-
-footer p {
-  margin: 0;
-}
-
-.socialmedia a {
-  text-decoration: none;
-  margin-left: 10px;
+  background-color: var(--accent2-color);
+  color: var(--primary-color);
+  padding: 10px;
 }
