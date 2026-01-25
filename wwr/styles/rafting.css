@@ -3,6 +3,7 @@
   --secondary-color: #3a8fa8;
   --accent1-color: #cae9ff;
   --accent2-color: #ffffff;
+
   --heading-font: Arial, Helvetica, sans-serif;
   --body-font: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -19,7 +20,9 @@ body {
   background-color: var(--accent1-color);
 }
 
-header, main, footer {
+header,
+main,
+footer {
   width: 840px;
   margin: 0 auto;
 }
@@ -30,27 +33,34 @@ header {
   align-items: center;
   background-color: var(--primary-color);
   color: var(--accent2-color);
-  padding: 10px;
+  padding: 10px 20px;
 }
 
 header nav a {
   color: var(--accent2-color);
   text-decoration: none;
   font-family: var(--heading-font);
-  padding: 10px;
+  margin-left: 15px;
 }
 
 header nav a:hover {
-  background-color: var(--secondary-color);
   text-decoration: underline;
 }
 
-h1, h2 {
+h1 {
   font-family: var(--heading-font);
   color: var(--primary-color);
 }
 
-nav, p, section, article {
+h2 {
+  font-family: var(--heading-font);
+  color: var(--secondary-color);
+}
+
+nav,
+p,
+section,
+article {
   margin: 16px;
   padding: 8px;
 }
@@ -91,15 +101,20 @@ nav, p, section, article {
   margin-left: 16px;
 }
 
-.socialmedia a {
-  text-decoration: none;
+section {
+  background-color: var(--accent2-color);
 }
 
 footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--accent2-color);
-  color: var(--primary-color);
-  padding: 10px;
+  background-color: var(--primary-color);
+  color: var(--accent2-color);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.socialmedia a {
+  text-decoration: none;
 }
