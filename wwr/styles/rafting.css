@@ -170,10 +170,15 @@ footer {
   align-items: start;
 }
 
+.map {
+  width: 100%;
+}
+
 .map iframe {
   width: 100%;
   height: 300px;
   border: 0;
+  display: block;
 }
 
 .contact-form {
