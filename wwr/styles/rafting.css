@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #1b4965;
-  --secondary-color: #3a8fa8;
-  --accent1-color: #cae9ff;
+  --primary-color: #0f3d57;
+  --secondary-color: #1f7a8c;
+  --accent1-color: #e6f4f7;
   --accent2-color: #ffffff;
   --heading-font: Arial, Helvetica, sans-serif;
   --body-font: Verdana, Geneva, Tahoma, sans-serif;
@@ -15,7 +15,7 @@
 
 body {
   font-family: var(--body-font);
-  color: var(--primary-color);
+  color: #000;
   background-color: var(--accent1-color);
 }
 
@@ -51,6 +51,7 @@ header nav a {
   text-decoration: none;
   font-family: var(--heading-font);
   margin-left: 15px;
+  font-weight: bold;
 }
 
 header nav a:hover {
@@ -60,103 +61,13 @@ header nav a:hover {
 h1,
 h2 {
   font-family: var(--heading-font);
-  color: var(--primary-color);
-}
-
-.hero {
-  position: relative;
-}
-
-.hero img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.hero h1 {
-  position: absolute;
-  top: 20px;
-  width: 100%;
-  padding: 16px;
-  text-align: center;
-  background-color: rgba(27, 73, 101, 0.85);
-  color: var(--accent2-color);
-}
-
-.hero article {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  background-color: var(--accent2-color);
-  color: var(--primary-color);
-  padding: 16px;
-  width: 60%;
-  border: 1px solid var(--secondary-color);
-}
-
-.hero article img {
-  float: right;
-  width: 125px;
-  margin-left: 16px;
+  color: #000;
 }
 
 section {
   background-color: var(--accent2-color);
   margin: 16px;
   padding: 16px;
-}
-
-.history {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  gap: 16px;
-}
-
-.history img {
-  width: 100%;
-  height: auto;
-}
-
-.adventures {
-  display: flex;
-  gap: 12px;
-}
-
-.adventures figure {
-  flex: 1;
-  text-align: center;
-}
-
-.adventures img {
-  width: 100%;
-  height: auto;
-}
-
-.adventures figcaption {
-  margin-top: 8px;
-  font-weight: bold;
-  font-family: var(--heading-font);
-}
-
-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: var(--primary-color);
-  color: var(--accent2-color);
-  padding: 20px;
-  margin-top: 20px;
-}
-
-.socialmedia {
-  display: flex;
-  gap: 10px;
-}
-
-.socialmedia img {
-  width: 32px;
-  height: auto;
 }
 
 .contact-info h1 {
@@ -170,15 +81,10 @@ footer {
   align-items: start;
 }
 
-.map {
-  width: 100%;
-}
-
 .map iframe {
   width: 100%;
   height: 300px;
   border: 0;
-  display: block;
 }
 
 .contact-form {
@@ -198,10 +104,11 @@ footer {
   margin-top: 10px;
   padding: 10px;
   background-color: var(--secondary-color);
-  color: var(--accent2-color);
+  color: white;
   border: none;
   font-family: var(--heading-font);
   cursor: pointer;
+  font-weight: bold;
 }
 
 .contact-form button:hover {
@@ -220,4 +127,23 @@ footer {
 .employees img {
   width: 150px;
   height: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+  color: var(--accent2-color);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.socialmedia {
+  display: flex;
+  gap: 10px;
+}
+
+.socialmedia img {
+  width: 32px;
 }
