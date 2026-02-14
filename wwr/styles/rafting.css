@@ -7,7 +7,6 @@
   --body-font: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* Reset e Estrutura Geral */
 * {
   margin: 0;
   padding: 0;
@@ -26,7 +25,6 @@ header, main, footer {
   margin: 0 auto;
 }
 
-/* Header */
 header {
   display: flex;
   justify-content: space-between;
@@ -49,12 +47,10 @@ header nav a {
   font-weight: bold;
 }
 
-/* Seções */
 section {
   background-color: var(--accent2-color);
   margin: 20px 0;
   padding: 20px;
-  border-radius: 8px; /* Pequeno detalhe estético */
 }
 
 h1, h2 {
@@ -62,7 +58,6 @@ h1, h2 {
   margin-bottom: 15px;
 }
 
-/* Layout do Formulário e Mapa */
 .contact-layout {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -72,10 +67,9 @@ h1, h2 {
 .map-container iframe {
   width: 100%;
   height: 350px;
-  border: 0; /* O CSS cuida da borda agora */
+  border: 0;
 }
 
-/* Formulário */
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -110,7 +104,6 @@ fieldset legend {
   align-items: center;
   gap: 10px;
   margin: 15px 0;
-  font-weight: normal !important;
 }
 
 .contact-form button {
@@ -127,7 +120,6 @@ fieldset legend {
   background-color: var(--primary-color);
 }
 
-/* Funcionários */
 .employee-grid {
   display: flex;
   justify-content: space-around;
@@ -144,11 +136,9 @@ fieldset legend {
 .employee-grid img {
   width: 100%;
   height: auto;
-  border-radius: 50%; /* Fotos circulares ficam ótimas em perfis */
   border: 3px solid var(--secondary-color);
 }
 
-/* Footer */
 footer {
   display: flex;
   justify-content: space-between;
