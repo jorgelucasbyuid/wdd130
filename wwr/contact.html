@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,11 +36,11 @@
 
             <div class="map">
                 <iframe src="https://www.google.com/maps?q=Orla+de+Atalaia,+Aracaju,+Sergipe,+Brasil&output=embed"
-                    height="300">
+                    width="100%" height="300" style="border:0;">
                 </iframe>
             </div>
 
-            <form class="contact-form">
+            <form class="contact-form" method="post">
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" required>
 
@@ -66,7 +65,7 @@
                 </label>
 
                 <label for="message">Message</label>
-                <textarea id="message" name="message" rows="4"></textarea>
+                <textarea id="message" name="message" rows="4" required></textarea>
 
                 <label>
                     <input type="checkbox" name="subscribe">
